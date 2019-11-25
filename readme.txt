@@ -20,7 +20,7 @@ You can simply import the ready-made CosmosWP Demo Templates in a single click a
 CosmosWP Template Library contains light-weighted, clean in design and minimalist templates. It is crafted with the consideration of the modern looks and feel of the websites. These templates meet the standard Search Engine Optimization (SEO) guidelines, which means the website will be visible and well ranked in the search engines. Also templates are retina ready, responsive, flexible and super fast.
 
 While you use CosmosWP Template Library, it fetches all the demo websites including required files to your local server from demo.cosmoswp.com in a matter of single click.
-You must accept [terms]( https://www.cosmoswp.com/terms-and-conditions/) and [privacy]( https://www.cosmoswp.com/privacy-policy/) to use CosmosWP Template Library Features.
+You must accept [terms]( https://www.cosmoswp.com/terms) and [privacy]( https://www.cosmoswp.com/privacy) to use CosmosWP Template Library Features.
 
 === Prerequisite ===
 
