@@ -52,6 +52,7 @@ if ( ! class_exists( 'Cosmoswp_Template_Library_Agency' ) ) {
         public function add_demo_template_library( $templates_list ){
 
             $demo_list = array(
+                
                 array(
                     'title' => __( 'Agency 1', 'cosmoswp' ),/*Title*/
                     'is_premium' => false,/*Premium*/
