@@ -28,7 +28,7 @@ if ( ! defined( 'WPINC' ) ) {
 define( 'COSMOSWP_TEMPLATE_LIBRARY_VERSION', '1.0.0' );
 define( 'COSMOSWP_TEMPLATE_LIBRARY_PLUGIN_NAME', 'cosmoswp-template-library' );
 define( 'COSMOSWP_TEMPLATE_LIBRARY_PATH', plugin_dir_path( __FILE__ ) );
-define( 'COSMOSWP_TEMPLATE_LIBRARY_URL', plugin_dir_url( __FILE__ ) );
+define( 'COSMOSWP_TEMPLATE_LIBRARY_URL', 'https://raw.githubusercontent.com/cosmoswp/cosmoswp-template-library/master/' );
 define( 'COSMOSWP_TEMPLATE_LIBRARY_SCRIPT_PREFIX', ( defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ) ? '' : '.min' );
 
 /**
