@@ -54,7 +54,6 @@ if ( ! class_exists( 'Cosmoswp_Template_Library_Business' ) ) {
             $demo_list = array(
                 array(
                     'title' => __( 'Business 1 ', 'cosmoswp' ),/*Title*/
-                    'is_premium' => false,/*Premium*/
                     'type' => 'gutentor',/*Optional eg gutentor, elementor or other page builders*/
                     'author' => __( 'CosmosWP', 'cosmoswp' ),/*Author Name*/
                     'keywords' => array( 'main', 'demo' ),/*Search keyword*/
