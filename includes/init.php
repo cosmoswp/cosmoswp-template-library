@@ -169,6 +169,8 @@ class Cosmoswp_Template_Library {
         require_once COSMOSWP_TEMPLATE_LIBRARY_PATH . 'includes/template-add/templates/class-business.php';
         require_once COSMOSWP_TEMPLATE_LIBRARY_PATH . 'includes/template-add/templates/class-agency.php';
         require_once COSMOSWP_TEMPLATE_LIBRARY_PATH . 'includes/template-add/templates/class-consultant.php';
+        require_once COSMOSWP_TEMPLATE_LIBRARY_PATH . 'includes/template-add/templates/class-woocommerce.php';
+
         require_once COSMOSWP_TEMPLATE_LIBRARY_PATH . 'includes/template-add/templates/class-medical.php';
         require_once COSMOSWP_TEMPLATE_LIBRARY_PATH . 'includes/template-add/templates/class-education.php';
         require_once COSMOSWP_TEMPLATE_LIBRARY_PATH . 'includes/template-add/templates/class-blog.php';
@@ -176,6 +178,8 @@ class Cosmoswp_Template_Library {
         require_once COSMOSWP_TEMPLATE_LIBRARY_PATH . 'includes/template-add/templates/class-construction.php';
         require_once COSMOSWP_TEMPLATE_LIBRARY_PATH . 'includes/template-add/templates/class-travel.php';
         require_once COSMOSWP_TEMPLATE_LIBRARY_PATH . 'includes/template-add/templates/class-fitness.php';
+
+        
 
 		$this->loader = new Cosmoswp_Template_Library_Loader();
 	}

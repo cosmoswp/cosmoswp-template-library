@@ -3,7 +3,7 @@ if ( ! defined( 'ABSPATH' ) ) {
     exit;
 }
 
-if ( ! class_exists( 'Cosmoswp_Template_Library_Agency' ) ) {
+if ( ! class_exists( 'Cosmoswp_Template_Library_WooCommerce' ) ) {
 
     /**
      * Functions related to About Block
@@ -12,7 +12,7 @@ if ( ! class_exists( 'Cosmoswp_Template_Library_Agency' ) ) {
      *
      */
 
-    class Cosmoswp_Template_Library_Agency extends Cosmoswp_Template_Library_Base{
+    class Cosmoswp_Template_Library_WooCommerce extends Cosmoswp_Template_Library_Base{
         
         /**
          * Gets an instance of this object.
@@ -94,4 +94,4 @@ if ( ! class_exists( 'Cosmoswp_Template_Library_Agency' ) ) {
         }
     }
 }
-Cosmoswp_Template_Library_Agency::get_instance()->run();
+Cosmoswp_Template_Library_WooCommerce::get_instance()->run();
