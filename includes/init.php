@@ -179,6 +179,7 @@ class Cosmoswp_Template_Library {
         require_once COSMOSWP_TEMPLATE_LIBRARY_PATH . 'includes/template-add/templates/class-travel.php';
         require_once COSMOSWP_TEMPLATE_LIBRARY_PATH . 'includes/template-add/templates/class-fitness.php';
         require_once COSMOSWP_TEMPLATE_LIBRARY_PATH . 'includes/template-add/templates/class-restaurant.php';
+        require_once COSMOSWP_TEMPLATE_LIBRARY_PATH . 'includes/template-add/templates/class-lawyer.php';
 
         
 
