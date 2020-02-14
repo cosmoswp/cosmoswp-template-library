@@ -3,7 +3,7 @@ if ( ! defined( 'ABSPATH' ) ) {
     exit;
 }
 
-if ( ! class_exists( 'Cosmoswp_Template_Library_Agency' ) ) {
+if ( ! class_exists( 'Cosmoswp_Template_Library_Portfolio' ) ) {
 
     /**
      * Functions related to About Block
@@ -12,7 +12,7 @@ if ( ! class_exists( 'Cosmoswp_Template_Library_Agency' ) ) {
      *
      */
 
-    class Cosmoswp_Template_Library_Agency extends Cosmoswp_Template_Library_Base{
+    class Cosmoswp_Template_Library_Portfolio extends Cosmoswp_Template_Library_Base{
         
         /**
          * Gets an instance of this object.
@@ -67,7 +67,7 @@ if ( ! class_exists( 'Cosmoswp_Template_Library_Agency' ) ) {
                     ),
                     'screenshot_url' => COSMOSWP_TEMPLATE_LIBRARY_URL.'includes/template-data/portfolio/portfolio-1/screenshot.jpg',/*Screenshot of block*/
 
-                    'demo_url' => 'https://www.demo.cosmoswp.com/demo-2/',/*Demo Url*/
+                    'demo_url' => 'https://www.demo.cosmoswp.com/demo-14/',/*Demo Url*/
                     'plugins' => array(
                         array(
                             'name'      => 'Gutentor',
