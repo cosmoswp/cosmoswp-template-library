@@ -52,7 +52,7 @@ if ( ! class_exists( 'Cosmoswp_Template_Library_Business' ) ) {
         public function add_demo_template_library( $templates_list ){
 
             $demo_list = array(
-                1 => array(
+                'demo-1' => array(
                     'title' => __( 'Business 1 ', 'cosmoswp' ),/*Title*/
                     'type' => 'gutentor',/*Optional eg gutentor, elementor or other page builders*/
                     'author' => __( 'CosmosWP', 'cosmoswp' ),/*Author Name*/
@@ -84,7 +84,7 @@ if ( ! class_exists( 'Cosmoswp_Template_Library_Business' ) ) {
                     )
                 ),
 
-                101 => array(
+                'demo-101' => array(
                     'title' => __( 'Business 1 ', 'cosmoswp' ),/*Title*/
                     'is_pro' => true,/*Premium*/
                     'type' => 'gutentor',/*Optional eg gutentor, elementor or other page builders*/
