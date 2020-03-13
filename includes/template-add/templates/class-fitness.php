@@ -53,7 +53,7 @@ if ( ! class_exists( 'Cosmoswp_Template_Library_Fitness' ) ) {
 
             $demo_list = array(
                 'demo-11' => array(
-                    'title' => __( 'Fitness', 'cosmoswp' ),/*Title*/
+                    'title' => __( 'Fitness 1', 'cosmoswp' ),/*Title*/
                     'is_pro' => false,/*Premium*/
                     'type' => 'gutentor',/*Optional eg gutentor, elementor or other page builders*/
                     'author' => __( 'CosmosWP', 'cosmoswp' ),/*Author Name*/
@@ -80,7 +80,7 @@ if ( ! class_exists( 'Cosmoswp_Template_Library_Fitness' ) ) {
                     )
                 ),
                 'demo-108' => array(
-                    'title' => __( 'Fitness', 'cosmoswp' ),/*Title*/
+                    'title' => __( 'Fitness 1', 'cosmoswp' ),/*Title*/
                     'is_pro' => true,/*Premium*/
                     'type' => 'gutentor',/*Optional eg gutentor, elementor or other page builders*/
                     'author' => __( 'CosmosWP', 'cosmoswp' ),/*Author Name*/

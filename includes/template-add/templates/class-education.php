@@ -53,7 +53,7 @@ if ( ! class_exists( 'Cosmoswp_Template_Library_Education' ) ) {
 
             $demo_list = array(
                 'demo-6' => array(
-                    'title' => __( 'Education', 'cosmoswp' ),/*Title*/
+                    'title' => __( 'Education 1', 'cosmoswp' ),/*Title*/
                     'is_pro' => false,/*Premium*/
                     'type' => 'gutentor',/*Optional eg gutentor, elementor or other page builders*/
                     'author' => __( 'CosmosWP', 'cosmoswp' ),/*Author Name*/
@@ -80,7 +80,7 @@ if ( ! class_exists( 'Cosmoswp_Template_Library_Education' ) ) {
                     )
                 ),
                 'demo-105' => array(
-                    'title' => __( 'Education', 'cosmoswp' ),/*Title*/
+                    'title' => __( 'Education 1', 'cosmoswp' ),/*Title*/
                     'is_pro' => true,/*Premium*/
                     'type' => 'gutentor',/*Optional eg gutentor, elementor or other page builders*/
                     'author' => __( 'CosmosWP', 'cosmoswp' ),/*Author Name*/
