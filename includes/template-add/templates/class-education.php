@@ -52,7 +52,7 @@ if ( ! class_exists( 'Cosmoswp_Template_Library_Education' ) ) {
         public function add_demo_template_library( $templates_list ){
 
             $demo_list = array(
-                array(
+                6 => array(
                     'title' => __( 'Education', 'cosmoswp' ),/*Title*/
                     'is_pro' => false,/*Premium*/
                     'type' => 'gutentor',/*Optional eg gutentor, elementor or other page builders*/

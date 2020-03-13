@@ -53,7 +53,7 @@ if ( ! class_exists( 'Cosmoswp_Template_Library_Portfolio' ) ) {
 
             $demo_list = array(
                 
-                array(
+                14 => array(
                     'title' => __( 'Portfolio 1', 'cosmoswp' ),/*Title*/
                     'is_pro' => false,/*Premium*/
                     'type' => 'gutentor',/*Optional eg gutentor, elementor or other page builders*/

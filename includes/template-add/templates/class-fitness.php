@@ -52,7 +52,7 @@ if ( ! class_exists( 'Cosmoswp_Template_Library_Fitness' ) ) {
         public function add_demo_template_library( $templates_list ){
 
             $demo_list = array(
-                array(
+                11 => array(
                     'title' => __( 'Fitness', 'cosmoswp' ),/*Title*/
                     'is_pro' => false,/*Premium*/
                     'type' => 'gutentor',/*Optional eg gutentor, elementor or other page builders*/
