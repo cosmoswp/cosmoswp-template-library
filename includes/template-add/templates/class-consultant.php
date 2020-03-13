@@ -81,7 +81,7 @@ if ( ! class_exists( 'Cosmoswp_Template_Library_Consultant' ) ) {
                 ),
                 103 => array(
                     'title' => __( 'Consultant 1', 'cosmoswp' ),/*Title*/
-                    'is_pro' => false,/*Premium*/
+                    'is_pro' => true,/*Premium*/
                     'type' => 'gutentor',/*Optional eg gutentor, elementor or other page builders*/
                     'author' => __( 'CosmosWP', 'cosmoswp' ),/*Author Name*/
                     'keywords' => array( 'main', 'demo' ),/*Search keyword*/
