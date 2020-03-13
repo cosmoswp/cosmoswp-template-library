@@ -86,6 +86,7 @@ if ( ! class_exists( 'Cosmoswp_Template_Library_Construction' ) ) {
                 'demo-106' => array(
                     'title' => __( 'Construction 1', 'cosmoswp' ),/*Title*/
                     'is_pro' => true,/*Premium*/
+                    'pro_url' => 'https://www.cosmoswp.com/pricing/',/*Pro url*/
                     'type' => 'gutentor',/*Optional eg gutentor, elementor or other page builders*/
                     'author' => __( 'CosmosWP', 'cosmoswp' ),/*Author Name*/
                     'keywords' => array( 'main', 'demo' ),/*Search keyword*/
