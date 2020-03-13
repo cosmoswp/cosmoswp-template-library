@@ -83,6 +83,32 @@ if ( ! class_exists( 'Cosmoswp_Template_Library_Medical' ) ) {
                         ),
                     )
                 ),
+                104 => array(
+                    'title' => __( 'Medical 1', 'cosmoswp' ),/*Title*/
+                    'is_pro' => true,/*Premium*/
+                    'type' => 'gutentor',/*Optional eg gutentor, elementor or other page builders*/
+                    'author' => __( 'CosmosWP', 'cosmoswp' ),/*Author Name*/
+                    'keywords' => array( 'main', 'demo' ),/*Search keyword*/
+                    'categories' => array( 'medical' ),/*Categories*/
+                    'screenshot_url' => COSMOSWP_TEMPLATE_LIBRARY_URL.'includes/template-data/medical/medical-pro-1/screenshot.jpg',/*Screenshot of block*/
+
+                    'demo_url' => 'https://www.demo.cosmoswp.com/demo-104/',/*Demo Url*/
+                    'plugins' => array(
+                        array(
+                            'name'      => 'Gutentor',
+                            'slug'      => 'gutentor',
+                        ),
+                        array(
+                            'name'      => 'Breadcrumb NavXT',
+                            'slug'      => 'breadcrumb-navxt',
+                        ),
+                        array(
+                            'name'      => 'Contact Form 7',
+                            'slug'      => 'contact-form-7',
+                            'main_file' => 'wp-contact-form-7.php',
+                        ),
+                    )
+                ),
             );
 
             return array_merge( $templates_list, $demo_list );
