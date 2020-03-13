@@ -52,7 +52,7 @@ if ( ! class_exists( 'Cosmoswp_Template_Library_Construction' ) ) {
         public function add_demo_template_library( $templates_list ){
 
             $demo_list = array(
-                9 => array(
+                'demo-9' => array(
                     'title' => __( 'Construction 1', 'cosmoswp' ),/*Title*/
                     'is_pro' => false,/*Premium*/
                     'type' => 'gutentor',/*Optional eg gutentor, elementor or other page builders*/
@@ -83,7 +83,7 @@ if ( ! class_exists( 'Cosmoswp_Template_Library_Construction' ) ) {
                         ),
                     )
                 ),
-                106 => array(
+                'demo-106' => array(
                     'title' => __( 'Construction 1', 'cosmoswp' ),/*Title*/
                     'is_pro' => true,/*Premium*/
                     'type' => 'gutentor',/*Optional eg gutentor, elementor or other page builders*/

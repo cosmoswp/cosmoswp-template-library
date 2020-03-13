@@ -52,7 +52,7 @@ if ( ! class_exists( 'Cosmoswp_Template_Library_Consultant' ) ) {
         public function add_demo_template_library( $templates_list ){
 
             $demo_list = array(
-                3 => array(
+                'demo-3' => array(
                     'title' => __( 'Consultant 1', 'cosmoswp' ),/*Title*/
                     'is_pro' => false,/*Premium*/
                     'type' => 'gutentor',/*Optional eg gutentor, elementor or other page builders*/
@@ -79,7 +79,7 @@ if ( ! class_exists( 'Cosmoswp_Template_Library_Consultant' ) ) {
                         ),
                     )
                 ),
-                103 => array(
+                'demo-103' => array(
                     'title' => __( 'Consultant 1', 'cosmoswp' ),/*Title*/
                     'is_pro' => true,/*Premium*/
                     'type' => 'gutentor',/*Optional eg gutentor, elementor or other page builders*/

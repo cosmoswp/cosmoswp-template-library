@@ -52,7 +52,7 @@ if ( ! class_exists( 'Cosmoswp_Template_Library_Travel' ) ) {
         public function add_demo_template_library( $templates_list ){
 
             $demo_list = array(
-                10 => array(
+                'demo-10' => array(
                     'title' => __( 'Travel 1', 'cosmoswp' ),/*Title*/
                     'is_pro' => false,/*Premium*/
                     'type' => 'gutentor',/*Optional eg gutentor, elementor or other page builders*/
@@ -83,7 +83,7 @@ if ( ! class_exists( 'Cosmoswp_Template_Library_Travel' ) ) {
                         ),
                     )
                 ),
-                107 => array(
+                'demo-107' => array(
                     'title' => __( 'Travel 1', 'cosmoswp' ),/*Title*/
                     'is_pro' => true,/*Premium*/
                     'type' => 'gutentor',/*Optional eg gutentor, elementor or other page builders*/

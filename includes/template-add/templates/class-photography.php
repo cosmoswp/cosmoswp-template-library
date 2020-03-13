@@ -52,7 +52,7 @@ if ( ! class_exists( 'Cosmoswp_Template_Library_Photography' ) ) {
         public function add_demo_template_library( $templates_list ){
 
             $demo_list = array(
-                8 => array(
+                'demo-8' => array(
                     'title' => __( 'Photography', 'cosmoswp' ),/*Title*/
                     'is_pro' => false,/*Premium*/
                     'type' => 'gutentor',/*Optional eg gutentor, elementor or other page builders*/

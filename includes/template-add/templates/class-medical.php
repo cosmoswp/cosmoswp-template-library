@@ -52,7 +52,7 @@ if ( ! class_exists( 'Cosmoswp_Template_Library_Medical' ) ) {
         public function add_demo_template_library( $templates_list ){
 
             $demo_list = array(
-                5 => array(
+                'demo-5' => array(
                     'title' => __( 'Medical 1', 'cosmoswp' ),/*Title*/
                     'is_pro' => false,/*Premium*/
                     'type' => 'gutentor',/*Optional eg gutentor, elementor or other page builders*/
@@ -83,7 +83,7 @@ if ( ! class_exists( 'Cosmoswp_Template_Library_Medical' ) ) {
                         ),
                     )
                 ),
-                104 => array(
+                'demo-104' => array(
                     'title' => __( 'Medical 1', 'cosmoswp' ),/*Title*/
                     'is_pro' => true,/*Premium*/
                     'type' => 'gutentor',/*Optional eg gutentor, elementor or other page builders*/

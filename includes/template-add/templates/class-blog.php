@@ -52,7 +52,7 @@ if ( ! class_exists( 'Cosmoswp_Template_Library_Blog' ) ) {
         public function add_demo_template_library( $templates_list ){
 
             $demo_list = array(
-                7 => array(
+                'demo-7' => array(
                     'title' => __( 'Blog 1', 'cosmoswp' ),/*Title*/
                     'is_pro' => false,/*Premium*/
                     'type' => 'gutentor',/*Optional eg gutentor, elementor or other page builders*/

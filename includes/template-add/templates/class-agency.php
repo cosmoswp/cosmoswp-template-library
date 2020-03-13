@@ -53,7 +53,7 @@ if ( ! class_exists( 'Cosmoswp_Template_Library_Agency' ) ) {
 
             $demo_list = array(
                 
-                2 => array(
+                'demo-2' => array(
                     'title' => __( 'Agency 1', 'cosmoswp' ),/*Title*/
                     'is_pro' => false,/*Premium*/
                     'type' => 'gutentor',/*Optional eg gutentor, elementor or other page builders*/
@@ -84,7 +84,7 @@ if ( ! class_exists( 'Cosmoswp_Template_Library_Agency' ) ) {
                         ),
                     )
                 ),
-                102 => array(
+                'demo-102' => array(
                     'title' => __( 'Agency 1', 'cosmoswp' ),/*Title*/
                     'is_pro' => true,/*Premium*/
                     'type' => 'gutentor',/*Optional eg gutentor, elementor or other page builders*/

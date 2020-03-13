@@ -53,7 +53,7 @@ if ( ! class_exists( 'Cosmoswp_Template_Library_Lawyer' ) ) {
 
             $demo_list = array(
                 
-                13 => array(
+                'demo-13' => array(
                     'title' => __( 'Lawyer 1', 'cosmoswp' ),/*Title*/
                     'is_pro' => false,/*Premium*/
                     'type' => 'gutentor',/*Optional eg gutentor, elementor or other page builders*/

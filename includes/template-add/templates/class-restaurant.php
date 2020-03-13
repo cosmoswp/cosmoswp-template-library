@@ -53,7 +53,7 @@ if ( ! class_exists( 'Cosmoswp_Template_Library_Restaurant' ) ) {
 
             $demo_list = array(
                 
-                12 => array(
+                'demo-12' => array(
                     'title' => __( 'Restaurant 1', 'cosmoswp' ),/*Title*/
                     'is_pro' => false,/*Premium*/
                     'type' => 'gutentor',/*Optional eg gutentor, elementor or other page builders*/
