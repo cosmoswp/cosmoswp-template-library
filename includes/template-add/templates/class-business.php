@@ -87,6 +87,7 @@ if ( ! class_exists( 'Cosmoswp_Template_Library_Business' ) ) {
                 'demo-101' => array(
                     'title' => __( 'Business 1 ', 'cosmoswp' ),/*Title*/
                     'is_pro' => true,/*Premium*/
+                    'pro_url' => 'https://www.cosmoswp.com/pricing/',/*Pro url*/
                     'type' => 'gutentor',/*Optional eg gutentor, elementor or other page builders*/
                     'author' => __( 'CosmosWP', 'cosmoswp' ),/*Author Name*/
                     'keywords' => array( 'main', 'demo' ),/*Search keyword*/
