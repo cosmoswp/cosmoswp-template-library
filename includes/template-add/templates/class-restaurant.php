@@ -59,7 +59,7 @@ if ( ! class_exists( 'Cosmoswp_Template_Library_Restaurant' ) ) {
                     'type' => 'gutentor',/*Optional eg gutentor, elementor or other page builders*/
                     'author' => __( 'CosmosWP', 'cosmoswp' ),/*Author Name*/
                     'keywords' => array( 'main', 'demo' ),/*Search keyword*/
-                    'categories' => array( 'Restaurant','multipurpose' ),/*Categories*/
+                    'categories' => array( 'restaurant','multipurpose' ),/*Categories*/
                     'template_url' => array(
                         'content' => COSMOSWP_TEMPLATE_LIBRARY_URL.'includes/template-data/restaurant/restaurant-1/content.json',
                         'options' => COSMOSWP_TEMPLATE_LIBRARY_URL.'includes/template-data/restaurant/restaurant-1/options.json',
