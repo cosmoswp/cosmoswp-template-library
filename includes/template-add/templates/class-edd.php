@@ -53,7 +53,7 @@ if ( ! class_exists( 'Cosmoswp_Template_Library_EDD' ) ) {
 
             $demo_list = array(
                 
-                'demo-4' => array(
+                'demo-16' => array(
                     'title' => __( 'EDD 1', 'cosmoswp' ),/*Title*/
                     'is_pro' => false,/*Premium*/
                     'type' => 'gutentor',/*Optional eg gutentor, elementor or other page builders*/
