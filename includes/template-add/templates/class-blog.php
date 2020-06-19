@@ -101,13 +101,13 @@ if ( ! class_exists( 'Cosmoswp_Template_Library_Blog' ) ) {
                             'slug'      => 'gutentor',
                         ),
                         array(
+                            'name'      => 'Breadcrumb NavXT',
+                            'slug'      => 'breadcrumb-navxt',
+                        ),
+                        array(
                             'name'      => 'Contact Form 7',
                             'slug'      => 'contact-form-7',
                             'main_file' => 'wp-contact-form-7.php',
-                        ),
-                        array(
-                            'name'      => 'Breadcrumb NavXT',
-                            'slug'      => 'breadcrumb-navxt',
                         ),
                     )
                 ),
