@@ -145,10 +145,10 @@ if ( ! class_exists( 'Cosmoswp_Template_Library_Blog' ) ) {
                     'type' => 'gutentor',/*Optional eg gutentor, elementor or other page builders*/
                     'author' => __( 'CosmosWP', 'cosmoswp' ),/*Author Name*/
                     'keywords' => array( 'main', 'demo' ),/*Search keyword*/
-                    'categories' => array( 'blog' ),/*Categories*/
+                    'categories' => array( 'blog','magazine' ),/*Categories*/
                     'screenshot_url' => COSMOSWP_TEMPLATE_LIBRARY_URL.'includes/template-data/blog/magazine-pro-1/screenshot.jpg',/*Screenshot of block*/
 
-                    'demo_url' => 'https://www.demo.cosmoswp.com/demo-117/',/*Demo Url*/
+                    'demo_url' => 'https://www.demo.cosmoswp.com/demo-113/',/*Demo Url*/
                     'plugins' => array(
                         array(
                             'name'      => 'Gutentor',
