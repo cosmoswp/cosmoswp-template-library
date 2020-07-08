@@ -85,7 +85,7 @@ if ( ! class_exists( 'Cosmoswp_Template_Library_Blog' ) ) {
                     'is_pro' => false,/*Premium*/
                     'type' => 'gutentor',/*Optional eg gutentor, elementor or other page builders*/
                     'author' => __( 'CosmosWP', 'cosmoswp' ),/*Author Name*/
-                    'keywords' => array( 'main', 'demo' ),/*Search keyword*/
+                    'keywords' => array( 'main', 'demo','magazine' ),/*Search keyword*/
                     'categories' => array( 'blog','magazine' ),/*Categories*/
                     'template_url' => array(
                         'content' => COSMOSWP_TEMPLATE_LIBRARY_URL.'includes/template-data/blog/magazine-1/content.json',
@@ -117,7 +117,7 @@ if ( ! class_exists( 'Cosmoswp_Template_Library_Blog' ) ) {
                     'type' => 'gutentor',/*Optional eg gutentor, elementor or other page builders*/
                     'author' => __( 'CosmosWP', 'cosmoswp' ),/*Author Name*/
                     'keywords' => array( 'main', 'demo','nepali','news','magazine' ),/*Search keyword*/
-                    'categories' => array( 'blog','magazine' ),/*Categories*/
+                    'categories' => array( 'blog','magazine','nepali' ),/*Categories*/
                     'template_url' => array(
                         'content' => COSMOSWP_TEMPLATE_LIBRARY_URL.'includes/template-data/blog/magazine-2/content.json',
                         'options' => COSMOSWP_TEMPLATE_LIBRARY_URL.'includes/template-data/blog/magazine-2/options.json',
