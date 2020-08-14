@@ -83,6 +83,69 @@ if ( ! class_exists( 'Cosmoswp_Template_Library_Business' ) ) {
                         ),
                     )
                 ),
+                'demo-18' => array(
+                    'title' => __( 'Business 2 ', 'cosmoswp' ),/*Title*/
+                    'type' => 'gutentor',/*Optional eg gutentor, elementor or other page builders*/
+                    'author' => __( 'CosmosWP', 'cosmoswp' ),/*Author Name*/
+                    'keywords' => array( 'main', 'demo' ),/*Search keyword*/
+                    'categories' => array( 'business' ),/*Categories*/
+                    'template_url' => array(
+                        'content' => COSMOSWP_TEMPLATE_LIBRARY_URL.'includes/template-data/business/business-2/content.json',
+                        'options' => COSMOSWP_TEMPLATE_LIBRARY_URL.'includes/template-data/business/business-2/options.json',
+                        'widgets' => COSMOSWP_TEMPLATE_LIBRARY_URL.'includes/template-data/business/business-2/widgets.json'
+                    ),
+                    'screenshot_url' => COSMOSWP_TEMPLATE_LIBRARY_URL.'includes/template-data/business/business-2/screenshot.jpg',/*Screenshot of block*/
+
+                    'demo_url' => 'https://www.demo.cosmoswp.com/demo-18/',/*Demo Url*/
+
+                    'plugins' => array(
+                        array(
+                            'name'      => 'Gutentor',
+                            'slug'      => 'gutentor',
+                        ),
+                        array(
+                            'name'      => 'Breadcrumb NavXT',
+                            'slug'      => 'breadcrumb-navxt',
+                        ),
+                        array(
+                            'name'      => 'Contact Form 7',
+                            'slug'      => 'contact-form-7',
+                            'main_file' => 'wp-contact-form-7.php',
+                        ),
+                    )
+                ),
+                
+                'demo-19' => array(
+                    'title' => __( 'Business 2 ', 'cosmoswp' ),/*Title*/
+                    'type' => 'gutentor',/*Optional eg gutentor, elementor or other page builders*/
+                    'author' => __( 'CosmosWP', 'cosmoswp' ),/*Author Name*/
+                    'keywords' => array( 'main', 'demo' ),/*Search keyword*/
+                    'categories' => array( 'business' ),/*Categories*/
+                    'template_url' => array(
+                        'content' => COSMOSWP_TEMPLATE_LIBRARY_URL.'includes/template-data/business/business-2/content.json',
+                        'options' => COSMOSWP_TEMPLATE_LIBRARY_URL.'includes/template-data/business/business-2/options.json',
+                        'widgets' => COSMOSWP_TEMPLATE_LIBRARY_URL.'includes/template-data/business/business-2/widgets.json'
+                    ),
+                    'screenshot_url' => COSMOSWP_TEMPLATE_LIBRARY_URL.'includes/template-data/business/business-2/screenshot.jpg',/*Screenshot of block*/
+
+                    'demo_url' => 'https://www.demo.cosmoswp.com/demo-18/',/*Demo Url*/
+
+                    'plugins' => array(
+                        array(
+                            'name'      => 'Gutentor',
+                            'slug'      => 'gutentor',
+                        ),
+                        array(
+                            'name'      => 'Breadcrumb NavXT',
+                            'slug'      => 'breadcrumb-navxt',
+                        ),
+                        array(
+                            'name'      => 'Contact Form 7',
+                            'slug'      => 'contact-form-7',
+                            'main_file' => 'wp-contact-form-7.php',
+                        ),
+                    )
+                ),
 
                 'demo-101' => array(
                     'title' => __( 'Business 1 ', 'cosmoswp' ),/*Title*/
