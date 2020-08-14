@@ -116,19 +116,19 @@ if ( ! class_exists( 'Cosmoswp_Template_Library_Business' ) ) {
                 ),
                 
                 'demo-19' => array(
-                    'title' => __( 'Business 2 ', 'cosmoswp' ),/*Title*/
+                    'title' => __( 'Business 3 ', 'cosmoswp' ),/*Title*/
                     'type' => 'gutentor',/*Optional eg gutentor, elementor or other page builders*/
                     'author' => __( 'CosmosWP', 'cosmoswp' ),/*Author Name*/
                     'keywords' => array( 'main', 'demo' ),/*Search keyword*/
                     'categories' => array( 'business' ),/*Categories*/
                     'template_url' => array(
-                        'content' => COSMOSWP_TEMPLATE_LIBRARY_URL.'includes/template-data/business/business-2/content.json',
-                        'options' => COSMOSWP_TEMPLATE_LIBRARY_URL.'includes/template-data/business/business-2/options.json',
-                        'widgets' => COSMOSWP_TEMPLATE_LIBRARY_URL.'includes/template-data/business/business-2/widgets.json'
+                        'content' => COSMOSWP_TEMPLATE_LIBRARY_URL.'includes/template-data/business/business-3/content.json',
+                        'options' => COSMOSWP_TEMPLATE_LIBRARY_URL.'includes/template-data/business/business-3/options.json',
+                        'widgets' => COSMOSWP_TEMPLATE_LIBRARY_URL.'includes/template-data/business/business-3/widgets.json'
                     ),
-                    'screenshot_url' => COSMOSWP_TEMPLATE_LIBRARY_URL.'includes/template-data/business/business-2/screenshot.jpg',/*Screenshot of block*/
+                    'screenshot_url' => COSMOSWP_TEMPLATE_LIBRARY_URL.'includes/template-data/business/business-3/screenshot.jpg',/*Screenshot of block*/
 
-                    'demo_url' => 'https://www.demo.cosmoswp.com/demo-18/',/*Demo Url*/
+                    'demo_url' => 'https://www.demo.cosmoswp.com/demo-19/',/*Demo Url*/
 
                     'plugins' => array(
                         array(
