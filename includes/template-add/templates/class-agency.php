@@ -84,6 +84,37 @@ if ( ! class_exists( 'Cosmoswp_Template_Library_Agency' ) ) {
                         ),
                     )
                 ),
+                'demo-20' => array(
+                    'title' => __( 'Agency 2', 'cosmoswp' ),/*Title*/
+                    'is_pro' => false,/*Premium*/
+                    'type' => 'gutentor',/*Optional eg gutentor, elementor or other page builders*/
+                    'author' => __( 'CosmosWP', 'cosmoswp' ),/*Author Name*/
+                    'keywords' => array( 'main', 'demo' ),/*Search keyword*/
+                    'categories' => array( 'agency','multipurpose' ),/*Categories*/
+                    'template_url' => array(
+                        'content' => COSMOSWP_TEMPLATE_LIBRARY_URL.'includes/template-data/agency/agency-2/content.json',
+                        'options' => COSMOSWP_TEMPLATE_LIBRARY_URL.'includes/template-data/agency/agency-2/options.json',
+                        'widgets' => COSMOSWP_TEMPLATE_LIBRARY_URL.'includes/template-data/agency/agency-2/widgets.json'
+                    ),
+                    'screenshot_url' => COSMOSWP_TEMPLATE_LIBRARY_URL.'includes/template-data/agency/agency-2/screenshot.jpg',/*Screenshot of block*/
+
+                    'demo_url' => 'https://www.demo.cosmoswp.com/demo-20/',/*Demo Url*/
+                    'plugins' => array(
+                        array(
+                            'name'      => 'Gutentor',
+                            'slug'      => 'gutentor',
+                        ),
+                        array(
+                            'name'      => 'Breadcrumb NavXT',
+                            'slug'      => 'breadcrumb-navxt',
+                        ),
+                        array(
+                            'name'      => 'Contact Form 7',
+                            'slug'      => 'contact-form-7',
+                            'main_file' => 'wp-contact-form-7.php',
+                        ),
+                    )
+                ),
                 'demo-102' => array(
                     'title' => __( 'Agency 1', 'cosmoswp' ),/*Title*/
                     'is_pro' => true,/*Premium*/
