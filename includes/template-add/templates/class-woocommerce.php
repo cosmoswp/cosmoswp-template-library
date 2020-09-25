@@ -88,6 +88,37 @@ if ( ! class_exists( 'Cosmoswp_Template_Library_WooCommerce' ) ) {
                         ),
                     )
                 ),
+                'demo-117' => array(
+                    'title' => __( 'Shop  1', 'cosmoswp' ),/*Title*/
+                    'is_pro' => true,/*Premium*/
+                    'pro_url' => 'https://www.cosmoswp.com/pricing/',/*Pro url*/
+                    'type' => 'gutentor',/*Optional eg gutentor, elementor or other page builders*/
+                    'author' => __( 'CosmosWP', 'cosmoswp' ),/*Author Name*/
+                    'keywords' => array( 'main', 'demo' ),/*Search keyword*/
+                    'categories' => array( 'woocommerce' ),/*Categories*/
+                    'screenshot_url'    => COSMOSWP_TEMPLATE_LIBRARY_URL.'includes/template-data/woocommerce/shop-pro-1/screenshot.jpg',
+
+                    'demo_url' => 'https://www.demo.cosmoswp.com/demo-117/',/*Demo Url*/
+                    'plugins' => array(
+                        array(
+                            'name'      => 'Gutentor',
+                            'slug'      => 'gutentor',
+                        ),
+                        array(
+                            'name'      => 'Breadcrumb NavXT',
+                            'slug'      => 'breadcrumb-navxt',
+                        ),
+                        array(
+                            'name'      => 'Contact Form 7',
+                            'slug'      => 'contact-form-7',
+                            'main_file' => 'wp-contact-form-7.php',
+                        ),
+                        array(
+                            'name'      => 'WooCommerce',
+                            'slug'      => 'woocommerce',
+                        ),
+                    )
+                ),
             );
 
             return array_merge( $templates_list, $demo_list );
