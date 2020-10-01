@@ -84,11 +84,11 @@ if ( ! class_exists( 'Cosmoswp_Template_Library_Business' ) ) {
                     )
                 ),
                 'demo-18' => array(
-                    'title' => __( 'Business 2 ', 'cosmoswp' ),/*Title*/
+                    'title' => __( 'Finance 1 ', 'cosmoswp' ),/*Title*/
                     'type' => 'gutentor',/*Optional eg gutentor, elementor or other page builders*/
                     'author' => __( 'CosmosWP', 'cosmoswp' ),/*Author Name*/
                     'keywords' => array( 'main', 'demo' ),/*Search keyword*/
-                    'categories' => array( 'business' ),/*Categories*/
+                    'categories' => array( 'business','finance' ),/*Categories*/
                     'template_url' => array(
                         'content' => COSMOSWP_TEMPLATE_LIBRARY_URL.'includes/template-data/business/business-2/content.json',
                         'options' => COSMOSWP_TEMPLATE_LIBRARY_URL.'includes/template-data/business/business-2/options.json',
@@ -176,7 +176,7 @@ if ( ! class_exists( 'Cosmoswp_Template_Library_Business' ) ) {
                     )
                 ),
                 'demo-118' => array(
-                    'title' => __( 'Business 2 ', 'cosmoswp' ),/*Title*/
+                    'title' => __( 'Finance 1 ', 'cosmoswp' ),/*Title*/
                     'is_pro' => true,/*Premium*/
                     'pro_url' => 'https://www.cosmoswp.com/pricing/',/*Pro url*/
                     'type' => 'gutentor',/*Optional eg gutentor, elementor or other page builders*/
