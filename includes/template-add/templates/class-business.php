@@ -116,17 +116,17 @@ if ( ! class_exists( 'Cosmoswp_Template_Library_Business' ) ) {
                 ),
                 
                 'demo-19' => array(
-                    'title' => __( 'Business 3 ', 'cosmoswp' ),/*Title*/
+                    'title' => __( 'Automotive 1 ', 'cosmoswp' ),/*Title*/
                     'type' => 'gutentor',/*Optional eg gutentor, elementor or other page builders*/
                     'author' => __( 'CosmosWP', 'cosmoswp' ),/*Author Name*/
                     'keywords' => array( 'main', 'demo' ),/*Search keyword*/
-                    'categories' => array( 'business' ),/*Categories*/
+                    'categories' => array( 'business','automotive' ),/*Categories*/
                     'template_url' => array(
-                        'content' => COSMOSWP_TEMPLATE_LIBRARY_URL.'includes/template-data/business/business-3/content.json',
-                        'options' => COSMOSWP_TEMPLATE_LIBRARY_URL.'includes/template-data/business/business-3/options.json',
-                        'widgets' => COSMOSWP_TEMPLATE_LIBRARY_URL.'includes/template-data/business/business-3/widgets.json'
+                        'content' => COSMOSWP_TEMPLATE_LIBRARY_URL.'includes/template-data/business/automotive-1/content.json',
+                        'options' => COSMOSWP_TEMPLATE_LIBRARY_URL.'includes/template-data/business/automotive-1/options.json',
+                        'widgets' => COSMOSWP_TEMPLATE_LIBRARY_URL.'includes/template-data/business/automotive-1/widgets.json'
                     ),
-                    'screenshot_url' => COSMOSWP_TEMPLATE_LIBRARY_URL.'includes/template-data/business/business-3/screenshot.jpg',/*Screenshot of block*/
+                    'screenshot_url' => COSMOSWP_TEMPLATE_LIBRARY_URL.'includes/template-data/business/automotive-1/screenshot.jpg',/*Screenshot of block*/
 
                     'demo_url' => 'https://www.demo.cosmoswp.com/demo-19/',/*Demo Url*/
 
@@ -183,9 +183,37 @@ if ( ! class_exists( 'Cosmoswp_Template_Library_Business' ) ) {
                     'author' => __( 'CosmosWP', 'cosmoswp' ),/*Author Name*/
                     'keywords' => array( 'main', 'demo' ),/*Search keyword*/
                     'categories' => array( 'business','finance' ),/*Categories*/
-                    'screenshot_url' => COSMOSWP_TEMPLATE_LIBRARY_URL.'includes/template-data/business/business-pro-2/screenshot.jpg',/*Screenshot of block*/
+                    'screenshot_url' => COSMOSWP_TEMPLATE_LIBRARY_URL.'includes/template-data/business/finance-pro-1/screenshot.jpg',/*Screenshot of block*/
 
                     'demo_url' => 'https://www.demo.cosmoswp.com/demo-118/',/*Demo Url*/
+
+                    'plugins' => array(
+                        array(
+                            'name'      => 'Gutentor',
+                            'slug'      => 'gutentor',
+                        ),
+                        array(
+                            'name'      => 'Breadcrumb NavXT',
+                            'slug'      => 'breadcrumb-navxt',
+                        ),
+                        array(
+                            'name'      => 'Contact Form 7',
+                            'slug'      => 'contact-form-7',
+                            'main_file' => 'wp-contact-form-7.php',
+                        ),
+                    )
+                ),
+                'demo-119' => array(
+                    'title' => __( 'Automotive 2 ', 'cosmoswp' ),/*Title*/
+                    'is_pro' => true,/*Premium*/
+                    'pro_url' => 'https://www.cosmoswp.com/pricing/',/*Pro url*/
+                    'type' => 'gutentor',/*Optional eg gutentor, elementor or other page builders*/
+                    'author' => __( 'CosmosWP', 'cosmoswp' ),/*Author Name*/
+                    'keywords' => array( 'main', 'demo' ),/*Search keyword*/
+                    'categories' => array( 'business','automotive' ),/*Categories*/
+                    'screenshot_url' => COSMOSWP_TEMPLATE_LIBRARY_URL.'includes/template-data/business/automotive-pro-1/screenshot.jpg',/*Screenshot of block*/
+
+                    'demo_url' => 'https://www.demo.cosmoswp.com/demo-119/',/*Demo Url*/
 
                     'plugins' => array(
                         array(
