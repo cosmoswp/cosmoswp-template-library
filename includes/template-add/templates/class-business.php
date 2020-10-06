@@ -90,11 +90,11 @@ if ( ! class_exists( 'Cosmoswp_Template_Library_Business' ) ) {
                     'keywords' => array( 'main', 'demo' ),/*Search keyword*/
                     'categories' => array( 'business','finance' ),/*Categories*/
                     'template_url' => array(
-                        'content' => COSMOSWP_TEMPLATE_LIBRARY_URL.'includes/template-data/business/business-2/content.json',
-                        'options' => COSMOSWP_TEMPLATE_LIBRARY_URL.'includes/template-data/business/business-2/options.json',
-                        'widgets' => COSMOSWP_TEMPLATE_LIBRARY_URL.'includes/template-data/business/business-2/widgets.json'
+                        'content' => COSMOSWP_TEMPLATE_LIBRARY_URL.'includes/template-data/business/finance-1/content.json',
+                        'options' => COSMOSWP_TEMPLATE_LIBRARY_URL.'includes/template-data/business/finance-1/options.json',
+                        'widgets' => COSMOSWP_TEMPLATE_LIBRARY_URL.'includes/template-data/business/finance-1/widgets.json'
                     ),
-                    'screenshot_url' => COSMOSWP_TEMPLATE_LIBRARY_URL.'includes/template-data/business/business-2/screenshot.jpg',/*Screenshot of block*/
+                    'screenshot_url' => COSMOSWP_TEMPLATE_LIBRARY_URL.'includes/template-data/business/finance-1/screenshot.jpg',/*Screenshot of block*/
 
                     'demo_url' => 'https://www.demo.cosmoswp.com/demo-18/',/*Demo Url*/
 
