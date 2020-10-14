@@ -183,6 +183,7 @@ class Cosmoswp_Template_Library {
         require_once COSMOSWP_TEMPLATE_LIBRARY_PATH . 'includes/template-add/templates/class-lawyer.php';
         require_once COSMOSWP_TEMPLATE_LIBRARY_PATH . 'includes/template-add/templates/class-charity.php';
 		require_once COSMOSWP_TEMPLATE_LIBRARY_PATH . 'includes/template-add/templates/class-portfolio.php';
+		require_once COSMOSWP_TEMPLATE_LIBRARY_PATH . 'includes/template-add/templates/class-beauty.php';
 
         $this->loader = new Cosmoswp_Template_Library_Loader();
 	}
