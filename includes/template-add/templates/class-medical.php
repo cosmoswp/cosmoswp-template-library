@@ -117,7 +117,7 @@ if ( ! class_exists( 'Cosmoswp_Template_Library_Medical' ) ) {
                     'type' => 'gutentor',/*Optional eg gutentor, elementor or other page builders*/
                     'author' => __( 'CosmosWP', 'cosmoswp' ),/*Author Name*/
                     'keywords' => array( 'main', 'demo' ),/*Search keyword*/
-                    'categories' => array( 'medical' ),/*Categories*/
+                    'categories' => array( 'medical','woocommerce' ),/*Categories*/
                     'screenshot_url' => COSMOSWP_TEMPLATE_LIBRARY_URL.'includes/template-data/medical/medical-pro-2/screenshot.jpg',/*Screenshot of block*/
 
                     'demo_url' => 'https://www.demo.cosmoswp.com/demo-121/',/*Demo Url*/
