@@ -112,7 +112,7 @@ if ( ! class_exists( 'Cosmoswp_Template_Library_Restaurant' ) ) {
                     )
                 ),
                 'demo-122' => array(
-                    'title' => __( 'Restaurant 3', 'cosmoswp' ),/*Title*/
+                    'title' => __( 'Restaurant 2', 'cosmoswp' ),/*Title*/
                     'is_pro' => true,/*Premium*/
                     'pro_url' => 'https://www.cosmoswp.com/pricing/',/*Pro url*/
                     'type' => 'gutentor',/*Optional eg gutentor, elementor or other page builders*/
