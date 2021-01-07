@@ -53,7 +53,7 @@ if ( ! class_exists( 'Cosmoswp_Template_Library_Interior' ) ) {
 
             $demo_list = array(
                 
-                'demo-120' => array(
+                'demo-123' => array(
                     'title' => __( 'Interior 1', 'cosmoswp' ),/*Title*/
                     'is_pro' => true,/*Premium*/
                     'type' => 'gutentor',/*Optional eg gutentor, elementor or other page builders*/
