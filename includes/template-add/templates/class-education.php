@@ -103,6 +103,30 @@ if ( ! class_exists( 'Cosmoswp_Template_Library_Education' ) ) {
                         ),
                     )
                 ),
+                'demo-125' => array(
+                    'title' => __( 'Education 2', 'cosmoswp' ),/*Title*/
+                    'is_pro' => true,/*Premium*/
+                    'pro_url' => 'https://www.cosmoswp.com/pricing/',/*Pro url*/
+                    'type' => 'gutentor',/*Optional eg gutentor, elementor or other page builders*/
+                    'author' => __( 'CosmosWP', 'cosmoswp' ),/*Author Name*/
+                    'keywords' => array( 'education', 'kindergarten','kids' ),/*Search keyword*/
+                    'categories' => array( 'education','multipurpose' ),/*Categories*/
+    
+                    'screenshot_url' => COSMOSWP_TEMPLATE_LIBRARY_URL.'includes/template-data/education/education-pro-2/screenshot.jpg',/*Screenshot of block*/
+
+                    'demo_url' => 'https://www.demo.cosmoswp.com/demo-125/',/*Demo Url*/
+                    'plugins' => array(
+                        array(
+                            'name'      => 'Gutentor',
+                            'slug'      => 'gutentor',
+                        ),
+                        array(
+                            'name'      => 'Contact Form 7',
+                            'slug'      => 'contact-form-7',
+                            'main_file' => 'wp-contact-form-7.php',
+                        ),
+                    )
+                ),
             );
 
             return array_merge( $templates_list, $demo_list );
