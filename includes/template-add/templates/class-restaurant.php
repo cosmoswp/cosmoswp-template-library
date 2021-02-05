@@ -142,6 +142,37 @@ if ( ! class_exists( 'Cosmoswp_Template_Library_Restaurant' ) ) {
                         ),
                     )
                 ),
+                'demo-126' => array(
+                    'title' => __( 'Bakery', 'cosmoswp' ),/*Title*/
+                    'is_pro' => true,/*Premium*/
+                    'pro_url' => 'https://www.cosmoswp.com/pricing/',/*Pro url*/
+                    'type' => 'gutentor',/*Optional eg gutentor, elementor or other page builders*/
+                    'author' => __( 'CosmosWP', 'cosmoswp' ),/*Author Name*/
+                    'keywords' => array( 'shop', 'demo','bakery' ),/*Search keyword*/
+                    'categories' => array('bakery','woocommerce' ),/*Categories*/
+                    'screenshot_url' => COSMOSWP_TEMPLATE_LIBRARY_URL.'includes/template-data/bakery/bakery-pro-1/screenshot.jpg',/*Screenshot of block*/
+
+                    'demo_url' => 'https://www.demo.cosmoswp.com/demo-126/',/*Demo Url*/
+                    'plugins' => array(
+                        array(
+                            'name'      => 'Gutentor',
+                            'slug'      => 'gutentor',
+                        ),
+                        array(
+                            'name'      => 'Breadcrumb NavXT',
+                            'slug'      => 'breadcrumb-navxt',
+                        ),
+                        array(
+                            'name'      => 'Contact Form 7',
+                            'slug'      => 'contact-form-7',
+                            'main_file' => 'wp-contact-form-7.php',
+                        ),
+                        array(
+                            'name'      => 'WooCommerce',
+                            'slug'      => 'woocommerce',
+                        ),
+                    )
+                ),
             );
 
             return array_merge( $templates_list, $demo_list );
